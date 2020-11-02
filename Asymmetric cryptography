@@ -1,0 +1,30 @@
+Asymmetric cryptography (public key cryptography)
+
+Asymmetric cryptography, also known as public-key cryptography, is a process that uses a pair of related keys
+-- one public key and one private key -- to encrypt and decrypt a message and protect it from unauthorized access or use.
+A public key is a cryptographic key that can be used by any person to encrypt a message so that it can only be deciphered by
+the intended recipient with their private key. A private key -- also known as a secret key -- is shared only with key's initiator.
+
+When someone wants to send an encrypted message, they can pull the intended recipient's public key from a public directory
+and use it to encrypt the message before sending it. The recipient of the message can then decrypt the message using their
+related private key. On the other hand, if the sender encrypts the message using their private key, then the message can be decrypted 
+only using that sender's public key, thus authenticating the sender. These encryption and decryption processes happen automatically;
+users do not need to physically lock and unlock the message.
+
+Many protocols rely on asymmetric cryptography, including the transport layer security (TLS) and secure sockets layer (SSL) protocols,
+which make HTTPS possible. The encryption process is also used in software programs -- such as browsers -- that need to establish a
+secure connection over an insecure network like the Internet or need to validate a digital signature.
+
+Increased data security is the primary benefit of asymmetric cryptography. It is the most secure encryption process because users
+are never required to reveal or share their private keys, thus decreasing the chances of a cybercriminal discovering a user's private key during transmission.
+
+How asymmetric cryptography works:
+
+Asymmetric encryption uses a mathematically related pair of keys for encryption and decryption: a public key and a private key.
+If the public key is used for encryption, then the related private key is used for decryption; if the private key is used for encryption,
+then the related public key is used for decryption.
+
+The two participants in the asymmetric encryption workflow are the sender and the receiver; each has its own pair of public and private keys.
+First, the sender obtains the receiver's public key. Next, the plaintext -- or ordinary, readable text -- is encrypted by the sender using the
+receiver's public key; this creates ciphertext. The ciphertext is then sent to the receiver, who decrypts the ciphertext with their private key
+and returns it to legible plaintext.
