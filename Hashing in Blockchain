@@ -1,0 +1,56 @@
+Hashing:
+Hashing is generating a value or values from a string of text using a mathematical function.
+Hashing is one way to enable security during the process of message transmission when the message
+is intended for a particular recipient only. A formula generates the hash, which helps to protect the security of the transmission against tampering.
+In simple terms, hashing means taking an input string of any length and giving out an output of a fixed length. In the context of cryptocurrencies
+like bitcoin, the transactions are taken as input and run through a hashing algorithm (bitcoin uses SHA-256) which gives an output of a fixed length.
+Let’s see how the hashing process works. We are going put in certain inputs. For this exercise, we are going to use the SHA-256 (Secure Hashing Algorithm 256).
+
+Cryptographic hash functions:
+A cryptographic hash function is a special class of hash functions that has various properties making it ideal for cryptography.
+There are certain properties that a cryptographic hash function needs to have in order to be considered secure. Let’s run through them one by one.
+
+Property 1: Deterministic
+
+This means that no matter how many times you parse through a particular input through a hash function you will always get the same result.
+This is critical because if you get different hashes every single time it will be impossible to keep track of the input.
+
+Property 2: Quick Computation
+
+The hash function should be capable of returning the hash of input quickly. If the process isn’t fast enough then the system simply won’t be efficient.
+
+Property 3: Pre-Image Resistance
+
+What pre-image resistance states are that given H(A) it is infeasible to determine A, where A is the input and H(A) is the output hash.
+Notice the use of the word “infeasible” instead of “impossible”. We already know that it is not impossible to determine the original input from its hash value.
+
+Hashing and data structures:
+A data structure is a specialized way of storing data. There are two data structure properties that are critical if you want to understand
+how a blockchain works. They are:
+
+Pointers:
+
+Pointers are variables in programming which stores the address of another variable. Usually normal variables in any programming language store data.
+
+Eg. int a = 10, means that there is a variable “a” which stores integer values. In this case, it is storing an integer value which is 10.
+This is a normal variable.
+
+Pointers, however, instead of storing values will store addresses of other variables. Which is why they are called pointers,
+because they are literally pointing towards the location of other variables.
+
+Linked Lists:
+
+A linked list is one of the most important items in data structures.It is a sequence of blocks, each containing data that is linked to the next block
+via a pointer. The pointer variable, in this case, contains the address of the next node in it and hence the connection is made.
+The last node, as you can see, has a null pointer which means that it has no value.
+
+One important thing to note here, the pointer inside each block contains the address of the next block.
+That is how the pointing is achieved. Now you might be asking what does that means for the first block in the list?
+Where does the pointer of the first block stay?
+
+The first block is called the “genesis block” and its pointer lies out in the system itself.
+As you may have guessed by now, this is what the structure of the blockchain is based on. A blockchain is basically a linked list.
+The blockchain is a linked list that contains data and a hash pointer that points to its previous block, hence creating the chain.
+What is a hash pointer?
+A hash pointer is similar to a pointer, but instead of just containing the address of the previous block it also contains the hash
+of the data inside the previous block. This one small tweak is what makes blockchains so amazingly reliable and trailblazing.
