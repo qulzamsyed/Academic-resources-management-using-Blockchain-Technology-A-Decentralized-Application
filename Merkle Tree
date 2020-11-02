@@ -1,0 +1,8 @@
+In a Merkle tree, each non-leaf node is the hash of the values of their child nodes.
+Leaf Node: The leaf nodes are the nodes in the lowest tier of the tree.
+Child Nodes: For a node, the nodes below its tier which are feeding into it are its child nodes.
+
+So what does a Merkle Tree have to do with blockchains?
+Each block contains thousands and thousands of transactions. It will be very time inefficient to store all the data inside each block as a series.
+Doing so will make finding any particular transaction extremely cumbersome and time-consuming. If you use a Merkle tree, however,
+you will greatly cut down the time required to find out whether a particular transaction belongs in that block or not.
