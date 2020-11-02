@@ -1,14 +1,18 @@
 Reviews of People on Blockchain Data Security	
 Key Points:
-	Trusted transactions among untrusted participants.
-	Commercially adopted due to high security.
-	Data id transparent to each node i.e. it can be seen on every node.Hence it is trusted.
-	Blockchain data is Open Source.Records can be checked publically which proves its security.
-	Records can be reserved forever and cannot be changed unless someone take control more than 51% of the node in one same time.
-	Every node can transfer or update data safely.
+1.Trusted transactions among untrusted participants.
+2.Commercially adopted due to high security.
+3.Data id transparent to each node i.e. it can be seen on every node.Hence it is trusted.
+4.Blockchain data is Open Source.Records can be checked publically which proves its security.
+5.Records can be reserved forever and cannot be changed unless someone take control more than 51% of the node in one same time.
+6.Every node can transfer or update data safely.
 
 
-Security Issues
-	With Proof of Work, the probability of mining a block depends on the work done by the mine. Because of this mechanism, people will want to join together in order to mining more blocks, and become “mining pools”, a place where holding most computing power. Once it hold 51% computing power, it can take control this blockchain. Apparently, it cause security issues .
-	As blockchain growing, data becomes bigger and bigger, the loading of store and computing will also getting harder and harder, it takes plenty of time to synchronize data, in the same time, data still continuely increase, brings a big problem to client when running the system.
-	It does not allow government to control economic conditions. 
+Security Issues:
+
+1.With Proof of Work, the probability of mining a block depends on the work done by the mine. Because of this mechanism,
+people will want to join together in order to mining more blocks, and become “mining pools”, a place where holding most computing power.
+Once it hold 51% computing power, it can take control this blockchain. Apparently, it cause security issues .
+As blockchain growing, data becomes bigger and bigger, the loading of store and computing will also getting harder and harder,
+it takes plenty of time to synchronize data, in the same time, data still continuely increase, brings a big problem to client when running the system.
+2.It does not allow government to control economic conditions. 
