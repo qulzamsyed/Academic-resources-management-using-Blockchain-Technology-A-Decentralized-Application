@@ -1,0 +1,4 @@
+Smart contracts add a layer of logic and computation to the trust infrastructure supported by the blockchain. 
+Smart contracts allow for execution of code. Enhancing the basic value transfer capability of the Bitcoin blockchain. 
+The code for this smart contract is written in a high level language like Solidity and compiled into byte code. 
+The code for the smart contracts is executed on a special structure known as Ethereum Virtual Machine.
